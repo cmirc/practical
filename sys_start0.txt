@@ -36,6 +36,24 @@ sudo apt-get install audacity
 
 ## note to self: don't use [x] -y [z]
 
+## ALIASES
+
+sudo nano ~/.bashrc
+# add
+alias yba='youtube-dl -f bestaudio'
+alias ysv='youtube-dl -f 140'
+alias ybv='youtube-dl -f bestvideo'
+alias x='exit'
+alias pls='sudo'
+alias ba='sudo nano ~/.bashrc'
+alias g='git clone'
+alias f='sudo find / -name'
+alias c='cd'
+alias syn='sudo synaptic'
+alias sul='sudo apt-get install'
+alias jup='jupyter notebook'
+
+
 ### R
 sudo apt-get install r-base
 
