@@ -1,0 +1,31 @@
+
+## WaoN
+
+git clone https://github.com/kichiki/WaoN
+sudo apt-get install libfftw3-dev
+sudo apt-get install libsndfile1-dev
+sudo apt-get install lsndfile
+sudo apt-get install fftw3-dev
+sudo apt-get install libc6-dev-i386
+
+make -f Makefile.waon
+
+
+## Audio to midi Melodia
+
+https://github.com/justinsalamon/audio_to_midi_melodia
+https://www.upf.edu/web/mtg/melodia
+
+sudo pip install librosa
+sudo pip install vamp
+sudo pip install jams
+sudo pip install midiutil
+
+cd ardour4/vamp/
+cd local/lib/
+cd python2.7/dist-packages/vamp
+cd local/lib/
+sudo cp /home/frank/Downloads/m/* .
+
+python audio_to_midi_melodia.py /home/x/Music/gen/file.wav file1.mid 60 --smooth 0.25 --minduration 0.1 --jams
+
