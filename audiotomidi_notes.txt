@@ -12,7 +12,7 @@ make -f Makefile.waon
 sudo nano Makefile.waon
 edit: -m32 instead of -march=pentium
 
-## Audio to midi Melodia
+## Audio to midi Melodia  -->> less optimal!!
 
 https://github.com/justinsalamon/audio_to_midi_melodia
 https://www.upf.edu/web/mtg/melodia
