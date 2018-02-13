@@ -66,9 +66,9 @@ alias f='sudo find / -name'
 alias c='cd'
 alias syn='sudo synaptic'
 alias sai='sudo apt-get install'
-#alias saupd='sudo apt-get update'
-#alias saupg='sudo apt-get upgrade'
-#alias saa='sudo apt autoremove'
+alias supd='sudo apt-get update'
+alias supg='sudo apt-get upgrade'
+alias saar='sudo apt autoremove'
 
 # development
 
@@ -76,6 +76,7 @@ alias g='git clone'
 alias jup='jupyter notebook'
 
 # youtube-dl
+
 # audio
 alias ysa_m4a='youtube-dl -f 139'
 alias yba_m4a='youtube-dl -f 140'
