@@ -1,5 +1,5 @@
 
-### Start0 
+############### Start0 ###############
 
 ## recurring
 sudo apt-get update
@@ -38,23 +38,70 @@ sudo apt-get install audacity
 
 ## ALIASES
 
+# 1 - edit ~/.bashrc file and add or uncomment the following lines
+
 sudo nano ~/.bashrc
-# add
-alias yba='youtube-dl -f bestaudio'
-alias ysv='youtube-dl -f 140'
-alias ybv='youtube-dl -f bestvideo'
+
+if [ -f ~/.bash_aliases ]; then
+. ~/.bash_aliases
+fi
+
+# save & close: ctrl+o & ctrl+x 
+# then create the actual file:
+
+sudo nano ~/.bash_aliases 
+# add the aliases there, in the same format (being e.g.: alias ll='ls -l')
+ 
+alias cs='cd;ls'
+sudo nano ~/.bashrc
+
+# add: shift+ctrl+v
+
+# basics
+
 alias x='exit'
 alias pls='sudo'
-alias ba='sudo nano ~/.bashrc'
-alias g='git clone'
+alias ba='sudo nano ~/.bash_aliases'
 alias f='sudo find / -name'
 alias c='cd'
 alias syn='sudo synaptic'
-alias sul='sudo apt-get install'
+alias sai='sudo apt-get install'
+#alias saupd='sudo apt-get update'
+#alias saupg='sudo apt-get upgrade'
+#alias saa='sudo apt autoremove'
+
+# development
+
+alias g='git clone'
 alias jup='jupyter notebook'
 
+# youtube-dl
+# audio
+alias ysa_m4a='youtube-dl -f 139'
+alias yba_m4a='youtube-dl -f 140'
+# video
+alias ysv='youtube-dl -f `17'
+alias ymv='youtube-dl -f 43'
+alias ybv='youtube-dl -f bestvideo'
 
-### R
+# sample available formats:
+format code  extension  resolution note
+139          m4a        audio only DASH audio   49k , m4a_dash container, mp4a.40.5@ 48k (22050Hz)
+140          m4a        audio only DASH audio  132k , m4a_dash container, mp4a.40.2@128k (44100Hz)
+134          mp4        640x360    DASH video   83k , mp4_dash container, avc1.4d401e, 24fps, video only
+160          mp4        256x144    DASH video  108k , mp4_dash container, avc1.4d400b, 24fps, video only
+133          mp4        426x240    DASH video  242k , mp4_dash container, avc1.4d400c, 24fps, video only
+137          mp4        1920x1080  DASH video  510k , mp4_dash container, avc1.640028, 24fps, video only
+135          mp4        854x480    DASH video 1155k , mp4_dash container, avc1.4d4014, 24fps, video only
+136          mp4        1280x720   DASH video 2310k , mp4_dash container, avc1.4d4016, 24fps, video only
+17           3gp        176x144    small , mp4v.20.3, mp4a.40.2@ 24k
+36           3gp        320x180    small , mp4v.20.3, mp4a.40.2
+43           webm       640x360    medium , vp8.0, vorbis@128k
+18           mp4        640x360    medium , avc1.42001E, mp4a.40.2@ 96k
+22           mp4        1280x720   hd720 , avc1.64001F, mp4a.40.2@192k (best)
+
+
+############### R ###############
 sudo apt-get install r-base
 
 cd /etc/apt
