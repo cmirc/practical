@@ -8,9 +8,21 @@ sudo apt-get install lsndfile
 sudo apt-get install fftw3-dev
 sudo apt-get install libc6-dev-i386
 
+# for listening to midi:
+sudo apt-get install timidity
+
+
 make -f Makefile.waon
 sudo nano Makefile.waon
 edit: -m32 instead of -march=pentium
+
+./waon -i BachCelloSuiteNo2.wav -o bach_cell02_w7_s2048.mid -w 7 -n 4096 -s 2048
+
+timidity bach_cell02_w6.mid 
+
+
+
+########################################### NOT OPTIMAL ###########################################
 
 ## Audio to midi Melodia  -->> less optimal!!
 
@@ -29,40 +41,6 @@ cd local/lib/
 sudo cp /home/frank/Downloads/m/* .
 
 python audio_to_midi_melodia.py /home/x/Music/gen/file.wav file1.mid 60 --smooth 0.25 --minduration 0.1 --jams
-
-
-
-## Ardour
-
-git....
-
-sudo apt-get -y install libboost-all-dev
-sudo apt-get -y install libasound2-dev
-sudo apt-get -y install libglib2.0-dev
-sudo apt-get -y install glibmm-2.4-dev
-sudo apt-get -y install libsndfile1-dev
-sudo apt-get -y install libcurl4-gnutls-dev
-sudo apt-get -y install liblo-dev
-sudo apt-get -y install libtag1-dev
-sudo apt-get -y install vamp-plugin-sdk
-sudo apt-get -y install librubberband-dev
-sudo apt-get -y install libfftw3-dev
-sudo apt-get -y install libaubio-dev
-sudo apt-get -y install libxml2-dev
-sudo apt-get -y install libcwiid-dev
-sudo apt-get -y install jack
-sudo apt-get -y install libjack-dev
-sudo apt-get -y install jackd
-sudo apt-get -y install qjackctl
-sudo apt-get -y install liblrdf0-dev
-sudo apt-get -y install libsamplerate-dev
-sudo apt-get -y install lv2-dev
-sudo apt-get -y install libserd-dev
-sudo apt-get -y install libsord-dev
-sudo apt-get -y install libsratom-dev
-sudo apt-get -y install liblilv-dev
-sudo apt-get -y install libgtkmm-2.4-dev
-sudo apt-get -y install libarchive-dev
 
 
 
