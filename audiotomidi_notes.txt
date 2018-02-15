@@ -1,25 +1,26 @@
 
 ## WaoN
 
-git clone https://github.com/kichiki/WaoN
-sudo apt-get install libfftw3-dev
-sudo apt-get install libsndfile1-dev
-sudo apt-get install lsndfile
-sudo apt-get install fftw3-dev
-sudo apt-get install libc6-dev-i386
+sudo apt-get install libfftw3-dev libsndfile1-dev
+sudo apt-get install lsndfile fftw3-dev libc6-dev-i386
 
-# for listening to midi:
+git clone https://github.com/kichiki/WaoN.git
+cd WaoN
+make
+
+# create midi files, note: highest setting for -1 is 7, and gives best results, combined w/ 32b wav:
+./waon -i BachCelloSuiteNo2.wav -o bach_cell02_w7_s2048.mid -w 7 -n 4096 -s 2048
+
+# listening to midi:
 sudo apt-get install timidity
+timidity bach_cell02_w6.mid 
 
 
+# old
 make -f Makefile.waon
 sudo nano Makefile.waon
 edit: -m32 instead of -march=pentium
-
-./waon -i BachCelloSuiteNo2.wav -o bach_cell02_w7_s2048.mid -w 7 -n 4096 -s 2048
-
-timidity bach_cell02_w6.mid 
-
+# /old
 
 
 ########################################### NOT OPTIMAL ###########################################
