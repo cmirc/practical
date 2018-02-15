@@ -1,7 +1,7 @@
 
-############### Start0 ###############
+#################### Start0 ####################
 
-## recurring
+#################### recurring
 sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt autoremove
@@ -9,11 +9,11 @@ sudo apt autoremove
 
 sudo apt-get install synaptic
 
-## security 
+#################### security 
 sudo apt-get install lynis
 sudo apt-get install rkhunter
 
-## productvity
+#################### productvity
 sudo apt-get install zsh
 sudo apt-get install terminator
 sudo apt-get install dolphin
@@ -22,21 +22,21 @@ sudo apt-get install tmux
 sudo apt-get install git-core
 sudo apt-get install subversion
 
-## internet
+#################### internet
 sudo apt-get install chromium-browser
 sudo apt-get install chromium-browser-l10n
 
-## devv
+#################### devv
 sudo apt-get install python3-pip
 
-## media
+#################### media
 sudo apt-get install youtube-dl
 sudo apt-get install mplayer
 sudo apt-get install audacity
 
-## note to self: don't use [x] -y [z]
+#### note to self: don't use [x] -y [z]
 
-## ALIASES
+#################### ALIASES
 
 # 1 - edit ~/.bashrc file and add or uncomment the following lines
 
@@ -54,38 +54,32 @@ sudo nano ~/.bash_aliases
  
 alias cs='cd;ls'
 sudo nano ~/.bashrc
+##################### 
+add: shift+ctrl+v
 
-# add: shift+ctrl+v
-
-# basics
-
+####################  basics
 alias x='exit'
 alias pls='sudo'
 alias ba='sudo nano ~/.bash_aliases'
 alias f='sudo find / -name'
-alias c='cd'
 alias syn='sudo synaptic'
 alias sai='sudo apt-get install'
 alias supd='sudo apt-get update'
 alias supg='sudo apt-get upgrade'
 alias saar='sudo apt autoremove'
-
-# development
-
+####################  development
 alias g='git clone'
 alias jup='jupyter notebook'
-
-# youtube-dl
-
-# audio
+####################  youtube-dl
+##########  audio
 alias ysa_m4a='youtube-dl -f 139'
 alias yba_m4a='youtube-dl -f 140'
-# video
-alias ysv='youtube-dl -f `17'
+##########  video
+alias ysv='youtube-dl -f 17'
 alias ymv='youtube-dl -f 43'
 alias ybv='youtube-dl -f bestvideo'
 
-# sample available formats:
+#################### sample available formats:
 format code  extension  resolution note
 139          m4a        audio only DASH audio   49k , m4a_dash container, mp4a.40.5@ 48k (22050Hz)
 140          m4a        audio only DASH audio  132k , m4a_dash container, mp4a.40.2@128k (44100Hz)
@@ -102,7 +96,7 @@ format code  extension  resolution note
 22           mp4        1280x720   hd720 , avc1.64001F, mp4a.40.2@192k (best)
 
 
-############### R ###############
+#################### R ####################
 sudo apt-get install r-base
 
 cd /etc/apt
@@ -114,7 +108,7 @@ deb https://http://cran-mirror.cs.uu.nl//bin/linux/ubuntu xenial/
 # ctrl-x
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 
-### R studio
+#################### R studio
 
 # grab a .deb file https://www.rstudio.com/products/rstudio/download/
 
@@ -124,7 +118,7 @@ rm *.deb #if only that particular deb is in the folder
 
 # check: https://help.ubuntu.com/community/SecureApt
 
-### Resources:
+#################### Resources:
 https://cran.r-project.org/mirrors.html
 https://cran.r-project.org/bin/linux/ubuntu/
 https://cran.r-project.org/web/packages/easypackages/vignettes/easypackages-vignette.html
@@ -137,7 +131,7 @@ https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git
 https://support.rstudio.com/hc/en-us/articles/206827897-Secure-Package-Downloads-for-R
 https://stackoverflow.com/questions/10255082/installing-r-from-cran-ubuntu-repository-no-public-key-error
 
-### Chrome
+#################### Chrome
 #https://askubuntu.com/questions/510056/how-to-install-google-chrome
 
 # Add Key:
