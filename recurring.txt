@@ -1,7 +1,6 @@
 
-
-## recurring
 sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt autoremove
-## /recurring
+
+pls pip3 install --upgrade youtube_dl
