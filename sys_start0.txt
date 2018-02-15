@@ -143,3 +143,12 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 # Install package:
 sudo apt-get update 
 sudo apt-get install google-chrome-stable
+
+
+
+
+
+
+
+
+# https://askubuntu.com/users/784925/marc1011
