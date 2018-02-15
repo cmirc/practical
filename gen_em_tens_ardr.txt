@@ -6,6 +6,24 @@ gcc --version
 echo $EDITOR
 echo $PATH
 
+##############n CUDA stuff
+
+http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
+https://developer.nvidia.com/cudnn
+
+
+
+##############n TENSORFLOW
+
+https://www.tensorflow.org/install/install_linux
+
+
+############## TENS+WAVENET
+
+git clone https://github.com/ibab/tensorflow-wavenet.git
+ 
+python3 train.py --data=corpus1 --silence_threshold=0
+
 ############## Ardour
 
 git....
@@ -37,4 +55,12 @@ sudo apt-get -y install libsratom-dev
 sudo apt-get -y install liblilv-dev
 sudo apt-get -y install libgtkmm-2.4-dev
 sudo apt-get -y install libarchive-dev
+
+
+
+
+
+
+
+
 
