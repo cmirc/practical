@@ -7,6 +7,9 @@ sudo apt-get dist-upgrade
 sudo apt autoremove
 ## /recurring
 
+# to fix home directory permissions:
+sudo chown -R $USER: $HOME
+
 sudo apt-get install synaptic
 
 # RULE!
