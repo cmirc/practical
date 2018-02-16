@@ -1,9 +1,10 @@
+
 #################### Tensorflow
 
 https://www.tensorflow.org/install/install_linux
 
 
-#################### Tensorflow
+#################### Tensorflow + WAVENET
 
 git clone https://github.com/ibab/tensorflow-wavenet.git
 cd tensorflow-wavenet/
