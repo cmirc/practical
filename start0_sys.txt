@@ -1,5 +1,6 @@
 
 #################### Start0 ####################
+#### note to self: don't use [x] -y [z]
 
 #################### recurring
 sudo apt-get update
@@ -22,17 +23,14 @@ sudo chmod +x some-prog
 export PATH=$PATH:/home/x/programs/some-prog
 
 #################### security 
-sudo apt-get install lynis
-sudo apt-get install rkhunter
+sudo apt-get install lynis rkhunter
 
 #################### internet
-sudo apt-get install chromium-browser
-sudo apt-get install chromium-browser-l10n
+sudo apt-get install chromium-browser chromium-browser-l10n
 
 #################### edit sources list
 sudo nano /etc/apt/sources.list
 # paste:
-
 # latest security updates
 deb http://security.debian.org/ stretch/updates main contrib non-free
 #deb http://ftp.us.debian.org/debian stretch-proposed-updates main contrib non-free
@@ -44,20 +42,11 @@ contrib non-free
 sudo apt-get install python3-pip
 
 #################### productvity
-sudo apt-get install zsh
-sudo apt-get install terminator
-sudo apt-get install dolphin
-sudo apt-get install geany
-sudo apt-get install tmux
-sudo apt-get install git-core
-sudo apt-get install subversion
+sudo apt-get install geany tmux git subversion dolphin
+sudo apt-get install zsh terminator
  
 #################### media
-sudo apt-get install youtube-dl
-sudo apt-get install mplayer
-sudo apt-get install audacity
-
-#### note to self: don't use [x] -y [z]
+sudo apt-get install youtube-dl mplayer audacity 
 
 #################### ALIASES
 
