@@ -1,6 +1,4 @@
 
-
-
 #################### GPU
 https://wiki.debian.org/NvidiaGraphicsDrivers 
 https://wiki.debian.org/GraphicsCard
@@ -15,7 +13,6 @@ apt-get install firmware-linux-nonfree
 apt-get install vlc gimp smplayer
 
 
-
 ##############n NVIDIA stuff
 
 lspci | grep -i nvidia
@@ -27,12 +24,6 @@ echo $PATH
 
 http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
 https://developer.nvidia.com/cudnn
-
-
-
-
-
-
 
 
 
