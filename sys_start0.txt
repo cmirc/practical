@@ -9,6 +9,15 @@ sudo apt autoremove
 
 sudo apt-get install synaptic
 
+# RULE!
+# if installing packagas, not via synaptic or apt-get;
+# dedicate dir!
+mkdir ~/programs
+cp x/y some-prog ~/programs
+sudo chmod +x some-prog
+# and ~/programs to system environment 
+export PATH=$PATH:/home/x/programs/some-prog
+
 #################### security 
 sudo apt-get install lynis
 sudo apt-get install rkhunter
