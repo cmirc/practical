@@ -1,7 +1,25 @@
 
 ############## Ardour
 
-git....
+mkdir ardour
+cd ardour
+git clone  git://git.ardour.org/ardour/ardour.git
+cd ardour
+checkout tags/5.12
+
+Compile the Program
+cd ardour
+./waf configure
+./waf
+
+Install the Program
+sudo ./waf install
+
+Launch Jack
+qjackctl
+
+Launch Ardour
+ardour5
 
 sudo apt-get -y install libboost-all-dev
 sudo apt-get -y install libasound2-dev
@@ -34,6 +52,22 @@ sudo apt-get -y install libarchive-dev
 
 ############## KX Studio
 
-https://kxstudio.linuxaudio.org/Documentation:Repository:Meta-Packages 
-kxstudio.linuxaudio.org/Repositories
+# source: kxstudio.linuxaudio.org/Repositories
+
+# Install required dependencies if needed
+sudo apt-get install apt-transport-https software-properties-common wget libglibmm-2.4-1v5
+# Download package files
+wget https://launchpad.net/~kxstudio-debian/+archive/kxstudio/+files/kxstudio-repos_9.4.9~kxstudio1_all.deb
+wget https://launchpad.net/~kxstudio-debian/+archive/kxstudio/+files/kxstudio-repos-gcc5_9.4.9~kxstudio1_all.deb
+# Install 
+sudo dpkg -i kxstudio-repos_9.4.9~kxstudio1_all.deb
+sudo dpkg -i kxstudio-repos-gcc5_9.4.9~kxstudio1_all.deb
+ 
+sudo synaptic
+kxstudio-meta-audio
+
+
+http://kxstudio.linuxaudio.org/Documentation:Repository:Meta-Packages
+
+############## 
 
