@@ -6,6 +6,8 @@
 sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt autoremove
+
+pls pip3 install --upgrade youtube_dl
 #################### /recurring & upon fresh install
 
 #################### upon fresh install:
@@ -50,6 +52,7 @@ sudo apt-get install zsh terminator
  
 #################### media
 sudo apt-get install youtube-dl mplayer audacity 
+sudo pip3 install --upgrade youtube_dl
 
 
 #################### ALIASES
