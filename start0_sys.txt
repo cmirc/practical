@@ -1,6 +1,7 @@
 
 #################### Start0 ####################
 #### note to self: don't use [x] -y [z]
+## ALSO: if aliases in place, use 'sai' to isntall!!
 
 #################### recurring & upon fresh install
 sudo apt-get update
