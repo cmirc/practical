@@ -39,7 +39,8 @@ ctrl-o ctrl-x
 startx
 sudo apt-get install git xfce4-terminal synaptic feh
 synaptic
-# install  chromium chromium-l10n mozilla firefox
+# install: chromium chromium-l10n mozilla firefox
+chown -R youruser /home/youruser
 
 # per category
 #################### security 
