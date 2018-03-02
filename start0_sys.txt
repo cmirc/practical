@@ -37,7 +37,7 @@ sudo nano ~/.xinitrc
 exec openbox-session
 ctrl-o ctrl-x
 startx
-sudo apt-get install git xfce4-terminal synaptic feh
+sudo apt-get install git xfce4-terminal gcc synaptic feh
 synaptic
 # install: chromium chromium-l10n mozilla firefox
 chown -R youruser /home/youruser
