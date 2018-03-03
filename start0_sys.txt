@@ -68,8 +68,7 @@ sudo nano ~/.bash_aliases
  
 alias cs='cd;ls'
 sudo nano ~/.bashrc
-##################### 
-add: shift+ctrl+v
+# add: shift+ctrl+v
 
 ####################  basics
 alias x='exit'
@@ -85,6 +84,7 @@ alias saar='sudo apt autoremove'
 ####################  development
 alias g='git clone'
 alias jup='jupyter notebook'
+alias nvd='/usr/bin/nvidia-persistenced --verbose'
 
 ####################  youtube-dl
 ##########  audio
