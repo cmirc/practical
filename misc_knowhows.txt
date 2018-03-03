@@ -11,6 +11,8 @@ http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
 
 ## KERNEL HEADERS
 https://unix.stackexchange.com/questions/47330/what-exactly-are-linux-kernel-headers
+https://askubuntu.com/questions/75709/how-do-i-install-kernel-header-files
+https://kernelnewbies.org/KernelHeaders
 
 ## INSTALLING
 https://robots.thoughtbot.com/a-tmux-crash-course
@@ -20,3 +22,15 @@ https://security.stackexchange.com/questions/35780/why-is-wpa-enterprise-more-se
 
 ## TMUX
 https://robots.thoughtbot.com/a-tmux-crash-course
+
+# INIT etc.
+https://askubuntu.com/questions/228304/how-do-i-run-a-script-at-start-up 
+https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up
+# for persitence.d
+http://docs.nvidia.com/deploy/driver-persistence/index.html#persistence-daemon https://devtalk.nvidia.com/default/topic/995248/cuda-setup-and-installation/setting-up-nvidia-persistenced/post/5090647/
+
+
+
+https://kernelnewbies.org/OutreachyIntro
+
+
