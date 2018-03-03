@@ -1,7 +1,7 @@
 
 #################### Start0 ####################
 #### note to self: don't use [x] -y [z]
-## ALSO: if aliases in place, use 'sai' to isntall!!
+## ALSO: if aliases in place, use 'sai' to install
 
 #################### recurring & upon fresh install
 sudo apt-get update
@@ -28,37 +28,28 @@ deb http://security.debian.org/ stretch/updates main contrib non-free
 #deb http://ftp.us.debian.org/debian stretch-proposed-updates main contrib non-free
 ctrl-o ctrl-x
 
-sudo apt-get install xorg openbox obconf obmenu
+# if kept back: 
+sudo apt-get install linux-image-amd64
+
+sudo apt-get install xorg openbox obconf obmenu git python3-pip xfce4-terminal gcc synaptic  
+sudo apt-get install geany tmux subversion dolphin  youtube-dl mplayer audacity feh lynis rkhunter
+sudo pip3 install --upgrade youtube_dl
+
 sudo mkdir -p ~/.config/openbox/
 cd /etc/X11/openbox/
-sudo cp * -p ~/.config/openbox/
+sudo cp /etc/X11/openbox/* -p ~/.config/openbox/
+ls
 ls ~/.config/openbox/
 sudo nano ~/.xinitrc
 exec openbox-session
 ctrl-o ctrl-x
 startx
-sudo apt-get install git xfce4-terminal gcc synaptic feh
-synaptic
-# install: chromium chromium-l10n mozilla firefox
-chown -R youruser /home/youruser
 
-# per category
-#################### security 
-sudo apt-get install lynis rkhunter
-
-#################### internet
-#sudo apt-get install chromium-browser chromium-browser-l10n
-
-#################### devv
-sudo apt-get install python3-pip git
-
-#################### productvity
-sudo apt-get install geany tmux subversion dolphin zsh terminator
- 
-#################### media
-sudo apt-get install youtube-dl mplayer audacity 
-sudo pip3 install --upgrade youtube_dl
-
+sudo synaptic
+chromium chromium-l10n
+mozilla firefox
+chown -R user /home/user
+  
 #################### ALIASES
 
 # 1 - edit ~/.bashrc file and add or uncomment the following lines
@@ -120,10 +111,13 @@ format code  extension  resolution note
 18           mp4        640x360    medium , avc1.42001E, mp4a.40.2@ 96k
 22           mp4        1280x720   hd720 , avc1.64001F, mp4a.40.2@192k (best)
 
-
 # to fix home directory permissions:
 sudo chown -R $USER: $HOME
  
+ 
+ 
+# zsh terminator
+
 # RULE!
 # if installing packagas, not via synaptic or apt-get;
 # dedicate dir!
