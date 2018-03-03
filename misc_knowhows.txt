@@ -1,0 +1,22 @@
+
+# MOUNTING
+https://unix.stackexchange.com/questions/18925/how-to-mount-a-device-in-linux
+
+## SH STUFF
+https://askubuntu.com/questions/263504/what-does-adding-sh-do
+
+## BASH SCRIPTING
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners 
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
+
+## KERNEL HEADERS
+https://unix.stackexchange.com/questions/47330/what-exactly-are-linux-kernel-headers
+
+## INSTALLING
+https://robots.thoughtbot.com/a-tmux-crash-course
+
+## WPA SEC
+https://security.stackexchange.com/questions/35780/why-is-wpa-enterprise-more-secure-than-wpa2
+
+## TMUX
+https://robots.thoughtbot.com/a-tmux-crash-course
