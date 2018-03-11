@@ -14,6 +14,12 @@ https://unix.stackexchange.com/questions/47330/what-exactly-are-linux-kernel-hea
 https://askubuntu.com/questions/75709/how-do-i-install-kernel-header-files
 https://kernelnewbies.org/KernelHeaders
 
+## images & kernels
+https://askubuntu.com/questions/100733/why-arent-old-linux-images-removed-when-installing-new-kernel-updates
+
+## INITRAMFS
+https://ubuntuforums.org/showthread.php?t=2356604
+
 ## INSTALLING
 https://robots.thoughtbot.com/a-tmux-crash-course
 
@@ -29,8 +35,14 @@ https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up
 # for persitence.d
 http://docs.nvidia.com/deploy/driver-persistence/index.html#persistence-daemon https://devtalk.nvidia.com/default/topic/995248/cuda-setup-and-installation/setting-up-nvidia-persistenced/post/5090647/
 
+## I/O + TTYs
+https://unix.stackexchange.com/questions/190773/redirect-script-output-to-dev-tty1-and-also-capture-output-to-file 
+https://stackoverflow.com/questions/36102622/sending-curses-applications-output-to-tty1
+https://en.wikipedia.org/wiki/Tee_(command)
 
 
+# misc but interesting:
 https://kernelnewbies.org/OutreachyIntro
+
 
 
