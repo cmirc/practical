@@ -16,9 +16,11 @@ https://kernelnewbies.org/KernelHeaders
 
 ## images & kernels
 https://askubuntu.com/questions/100733/why-arent-old-linux-images-removed-when-installing-new-kernel-updates
+https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel#Obtaining_the_source_for_an_Ubuntu_release
 
 ## INITRAMFS
 https://ubuntuforums.org/showthread.php?t=2356604
+https://manpages.debian.org/jessie/initramfs-tools/index.html
 
 ## INSTALLING
 https://robots.thoughtbot.com/a-tmux-crash-course
@@ -39,6 +41,16 @@ http://docs.nvidia.com/deploy/driver-persistence/index.html#persistence-daemon h
 https://unix.stackexchange.com/questions/190773/redirect-script-output-to-dev-tty1-and-also-capture-output-to-file 
 https://stackoverflow.com/questions/36102622/sending-curses-applications-output-to-tty1
 https://en.wikipedia.org/wiki/Tee_(command)
+
+# FILES & RENAMING
+https://stackoverflow.com/questions/12198844/replace-a-whole-file-with-another-file-in-bash
+
+# REL. TO WIN:
+https://www.howtogeek.com/116569/htg-explains-how-windows-8s-secure-boot-feature-works-what-it-means-for-linux/
+https://wiki.debian.org/WindowsDualBoot
+
+# DATA ON SSD's
+https://security.stackexchange.com/questions/12503/can-wiped-ssd-data-be-recovered
 
 
 # misc but interesting:
