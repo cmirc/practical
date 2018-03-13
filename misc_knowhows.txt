@@ -14,6 +14,8 @@ https://unix.stackexchange.com/questions/104727/add-a-path-in-path-globally-for-
 https://unix.stackexchange.com/questions/117467/how-to-permanently-set-environmental-variables 
 https://unix.stackexchange.com/questions/21598/how-do-i-set-a-user-environment-variable-permanently-not-session 
 https://askubuntu.com/questions/60218/how-to-add-a-directory-to-the-path
+https://serverfault.com/questions/166383/how-set-path-for-all-users-in-debian 
+https://help.ubuntu.com/community/EnvironmentVariables#A.2BAC8-etc.2BAC8-environment
 
 ## KERNEL HEADERS
 https://unix.stackexchange.com/questions/47330/what-exactly-are-linux-kernel-headers
@@ -61,6 +63,8 @@ https://security.stackexchange.com/questions/12503/can-wiped-ssd-data-be-recover
 # UBUNTU DIFF DEBIAN
 https://askubuntu.com/questions/1336/how-is-ubuntu-different-from-debian
 
+# RECOVERING DELETED FILES
+https://unix.stackexchange.com/questions/2677/recovering-accidentally-deleted-files/2680#2680
 
 # SPOTIFY LIKE YOUTUBE-DL
 https://github.com/topics/spotify-dl
@@ -68,5 +72,8 @@ https://github.com/topics/spotify-dl
 # misc but interesting:
 https://kernelnewbies.org/OutreachyIntro
 
+# CURRENT SETUP
+http://www.supermicro.nl/products/motherboard/xeon/c600/x10srl-f.cfm
+https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz
 
 
