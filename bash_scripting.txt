@@ -1,6 +1,11 @@
 
-
-https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners 
 
 http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
+
+www.linuxcommand.org/lc3_writing_shell_scripts.php 
+
+http://www.linuxcommand.org/lc3_wss0010.php
+
+https://drive.google.com/drive/folders/1GyXsO5U2AKlKpQSQCR-Dmqqv-iRX3Vvp
 
