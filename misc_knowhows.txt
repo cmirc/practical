@@ -5,6 +5,13 @@ https://unix.stackexchange.com/questions/18925/how-to-mount-a-device-in-linux
 # SH STUFF
 https://askubuntu.com/questions/263504/what-does-adding-sh-do
 
+# BASH SCRIPTING
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners 
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
+www.linuxcommand.org/lc3_writing_shell_scripts.php 
+http://www.linuxcommand.org/lc3_wss0010.php
+https://drive.google.com/drive/folders/1GyXsO5U2AKlKpQSQCR-Dmqqv-iRX3Vvp
+
 # PATHS
 https://unix.stackexchange.com/questions/104727/add-a-path-in-path-globally-for-every-user
 https://unix.stackexchange.com/questions/117467/how-to-permanently-set-environmental-variables 
