@@ -2,14 +2,17 @@
 # MOUNTING
 https://unix.stackexchange.com/questions/18925/how-to-mount-a-device-in-linux
 
-## SH STUFF
+# SH STUFF
 https://askubuntu.com/questions/263504/what-does-adding-sh-do
 
-## BASH SCRIPTING
+# BASH SCRIPTING
 https://linuxconfig.org/bash-scripting-tutorial-for-beginners 
 http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
+www.linuxcommand.org/lc3_writing_shell_scripts.php 
+http://www.linuxcommand.org/lc3_wss0010.php
+https://drive.google.com/drive/folders/1GyXsO5U2AKlKpQSQCR-Dmqqv-iRX3Vvp
 
-## PATHS
+# PATHS
 https://unix.stackexchange.com/questions/104727/add-a-path-in-path-globally-for-every-user
 https://unix.stackexchange.com/questions/117467/how-to-permanently-set-environmental-variables 
 https://unix.stackexchange.com/questions/21598/how-do-i-set-a-user-environment-variable-permanently-not-session 
@@ -18,26 +21,26 @@ https://serverfault.com/questions/166383/how-set-path-for-all-users-in-debian
 https://help.ubuntu.com/community/EnvironmentVariables#A.2BAC8-etc.2BAC8-environment
 https://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux-unix
 
-## KERNEL HEADERS
+# KERNEL HEADERS
 https://unix.stackexchange.com/questions/47330/what-exactly-are-linux-kernel-headers
 https://askubuntu.com/questions/75709/how-do-i-install-kernel-header-files
 https://kernelnewbies.org/KernelHeaders
 
-## images & kernels
+# images & kernels
 https://askubuntu.com/questions/100733/why-arent-old-linux-images-removed-when-installing-new-kernel-updates
 https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel#Obtaining_the_source_for_an_Ubuntu_release
 
-## INITRAMFS
+# INITRAMFS
 https://ubuntuforums.org/showthread.php?t=2356604
 https://manpages.debian.org/jessie/initramfs-tools/index.html
 
-## INSTALLING
+# INSTALLING
 https://robots.thoughtbot.com/a-tmux-crash-course
 
-## WPA SEC
-https://security.stackexchange.com/questions/35780/why-is-wpa-enterprise-more-secure-than-wpa2
+# OWNERSHIP
+https://askubuntu.com/questions/88356/changing-ownership-of-home-folders
 
-## TMUX
+# TMUX
 https://robots.thoughtbot.com/a-tmux-crash-course
 https://www.youtube.com/watch?v=BHhA_ZKjyxo
 
@@ -47,7 +50,7 @@ https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up
 # for persitence.d
 http://docs.nvidia.com/deploy/driver-persistence/index.html#persistence-daemon https://devtalk.nvidia.com/default/topic/995248/cuda-setup-and-installation/setting-up-nvidia-persistenced/post/5090647/
 
-## I/O + TTYs
+# I/O + TTYs
 https://unix.stackexchange.com/questions/190773/redirect-script-output-to-dev-tty1-and-also-capture-output-to-file 
 https://stackoverflow.com/questions/36102622/sending-curses-applications-output-to-tty1
 https://en.wikipedia.org/wiki/Tee_(command)
@@ -55,18 +58,17 @@ https://en.wikipedia.org/wiki/Tee_(command)
 # FILES & RENAMING
 https://stackoverflow.com/questions/12198844/replace-a-whole-file-with-another-file-in-bash
 
-# REL. TO WIN:
-https://www.howtogeek.com/116569/htg-explains-how-windows-8s-secure-boot-feature-works-what-it-means-for-linux/
-https://wiki.debian.org/WindowsDualBoot
-
-# DATA ON SSD's
-https://security.stackexchange.com/questions/12503/can-wiped-ssd-data-be-recovered
+# HOST return
+https://unix.stackexchange.com/questions/101948/a-command-that-gives-usernamehostnamepwd
 
 # UBUNTU DIFF DEBIAN
 https://askubuntu.com/questions/1336/how-is-ubuntu-different-from-debian
 
 # RECOVERING DELETED FILES
 https://unix.stackexchange.com/questions/2677/recovering-accidentally-deleted-files/2680#2680
+
+# WPA SEC
+https://security.stackexchange.com/questions/35780/why-is-wpa-enterprise-more-secure-than-wpa2
 
 # SPOTIFY LIKE YOUTUBE-DL
 https://github.com/topics/spotify-dl
@@ -77,6 +79,7 @@ https://kernelnewbies.org/OutreachyIntro
 # CURRENT SETUP
 http://www.supermicro.nl/products/motherboard/xeon/c600/x10srl-f.cfm
 https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz
+https://superuser.com/questions/1287102/possibility-of-incorrect-install-of-cpu-would-system-boot-os-install/1287105
 
 # MELTDOWN
 https://www.vox.com/business-and-finance/2018/1/4/16850004/meltdown-spectre-intel-security-flaw-update
@@ -84,4 +87,12 @@ https://arstechnica.com/gadgets/2018/01/good-newsbad-news-in-quest-to-get-meltdo
 https://www.pcgamer.com/intel-reveals-0-25-percent-performance-impact-from-meltdown-and-spectre-patches/ 
 https://www.techradar.com/news/intel-admits-that-meltdown-and-spectre-patch-problems-affect-newer-cpus
 
+# REL. TO WIN:
+https://www.howtogeek.com/116569/htg-explains-how-windows-8s-secure-boot-feature-works-what-it-means-for-linux/
+https://wiki.debian.org/WindowsDualBoot
 
+# DATA ON SSD's
+https://security.stackexchange.com/questions/12503/can-wiped-ssd-data-be-recovered
+
+# MAC
+https://www.macworld.com/article/2855735/the-paranoid-persons-guide-to-a-complete-mac-backup.html
