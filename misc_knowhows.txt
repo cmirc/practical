@@ -106,3 +106,16 @@ https://www.macworld.com/article/2855735/the-paranoid-persons-guide-to-a-complet
 # DIY KEYBOARD
 https://superuser.com/questions/184870/laptops-internal-keyboard-as-an-external-one
 
+
+
+########################################     CS      ########################################
+
+
+# DYNAMIC PROGRAMMING
+https://blogs.nvidia.com/blog/2017/06/23/ai-energy-conservation/ 
+https://www.youtube.com/watch?v=vYquumk4nWw 
+
+
+
+
+
