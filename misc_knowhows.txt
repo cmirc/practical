@@ -73,6 +73,9 @@ https://unix.stackexchange.com/questions/2677/recovering-accidentally-deleted-fi
 # WPA SEC
 https://security.stackexchange.com/questions/35780/why-is-wpa-enterprise-more-secure-than-wpa2
 
+# MULTITHREADING
+https://stackoverflow.com/questions/200469/what-is-the-difference-between-a-process-and-a-thread
+
 # SPOTIFY LIKE YOUTUBE-DL
 https://github.com/topics/spotify-dl
 
@@ -106,7 +109,8 @@ https://www.macworld.com/article/2855735/the-paranoid-persons-guide-to-a-complet
 # DIY KEYBOARD
 https://superuser.com/questions/184870/laptops-internal-keyboard-as-an-external-one
 
-
+# CONTROL THE FANS
+https://github.com/dasGringuen/kickstart/tree/master/my_thinkpad_fan_control
 
 ########################################     CS      ########################################
 
