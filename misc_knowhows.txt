@@ -50,6 +50,9 @@ https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up
 # for persitence.d
 http://docs.nvidia.com/deploy/driver-persistence/index.html#persistence-daemon https://devtalk.nvidia.com/default/topic/995248/cuda-setup-and-installation/setting-up-nvidia-persistenced/post/5090647/
 
+# X
+https://wiki.debian.org/Xinitrc
+ 
 # I/O + TTYs
 https://unix.stackexchange.com/questions/190773/redirect-script-output-to-dev-tty1-and-also-capture-output-to-file 
 https://stackoverflow.com/questions/36102622/sending-curses-applications-output-to-tty1
@@ -96,6 +99,10 @@ https://tweakers.net/categorie/674/solid-state-drives/producten/#filter:q1YqKMpM
 
 # DATA ON SSD's
 https://security.stackexchange.com/questions/12503/can-wiped-ssd-data-be-recovered
-
+xzibit
 # MAC
 https://www.macworld.com/article/2855735/the-paranoid-persons-guide-to-a-complete-mac-backup.html
+
+# DIY KEYBOARD
+https://superuser.com/questions/184870/laptops-internal-keyboard-as-an-external-one
+
