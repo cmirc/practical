@@ -21,6 +21,11 @@ https://serverfault.com/questions/166383/how-set-path-for-all-users-in-debian
 https://help.ubuntu.com/community/EnvironmentVariables#A.2BAC8-etc.2BAC8-environment
 https://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux-unix
 
+# COMPILE FROM SOURCE
+https://www.youtube.com/watch?v=GaEu8HXL0FE
+https://www.youtube.com/watch?v=uRQ4QBegur8 
+https://www.youtube.com/watch?v=8PPsRowfJKA
+
 # KERNEL HEADERS
 https://unix.stackexchange.com/questions/47330/what-exactly-are-linux-kernel-headers
 https://askubuntu.com/questions/75709/how-do-i-install-kernel-header-files
