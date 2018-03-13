@@ -91,6 +91,8 @@ https://www.techradar.com/news/intel-admits-that-meltdown-and-spectre-patch-prob
 https://www.howtogeek.com/116569/htg-explains-how-windows-8s-secure-boot-feature-works-what-it-means-for-linux/
 https://wiki.debian.org/WindowsDualBoot
 https://support.microsoft.com/en-us/help/17422/windows-8-create-usb-recovery-drive
+https://answers.microsoft.com/en-us/windows/forum/windows_10-windows_install-winpc/clean-install-of-windows-10-os-on-new-ssd-best/9186ae98-b2b4-4b7a-b3ff-0b053ce2d1c9
+https://tweakers.net/categorie/674/solid-state-drives/producten/#filter:q1YqKMpMTvXNzFOyMtBRKi5ITXbLzClJLSpWsqpWMjKzNAbRuSBpJUMjAz0DJR2l3MQKEM8MxKutrQUA
 
 # DATA ON SSD's
 https://security.stackexchange.com/questions/12503/can-wiped-ssd-data-be-recovered
