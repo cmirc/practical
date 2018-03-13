@@ -39,6 +39,7 @@ https://security.stackexchange.com/questions/35780/why-is-wpa-enterprise-more-se
 
 ## TMUX
 https://robots.thoughtbot.com/a-tmux-crash-course
+https://www.youtube.com/watch?v=BHhA_ZKjyxo
 
 # INIT etc.
 https://askubuntu.com/questions/228304/how-do-i-run-a-script-at-start-up 
