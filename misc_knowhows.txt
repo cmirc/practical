@@ -90,6 +90,7 @@ https://www.techradar.com/news/intel-admits-that-meltdown-and-spectre-patch-prob
 # REL. TO WIN:
 https://www.howtogeek.com/116569/htg-explains-how-windows-8s-secure-boot-feature-works-what-it-means-for-linux/
 https://wiki.debian.org/WindowsDualBoot
+https://support.microsoft.com/en-us/help/17422/windows-8-create-usb-recovery-drive
 
 # DATA ON SSD's
 https://security.stackexchange.com/questions/12503/can-wiped-ssd-data-be-recovered
