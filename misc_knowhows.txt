@@ -87,11 +87,6 @@ https://github.com/topics/spotify-dl
 # misc but interesting:
 https://kernelnewbies.org/OutreachyIntro
 
-# CURRENT SETUP
-http://www.supermicro.nl/products/motherboard/xeon/c600/x10srl-f.cfm
-https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz
-https://superuser.com/questions/1287102/possibility-of-incorrect-install-of-cpu-would-system-boot-os-install/1287105
-
 # MELTDOWN
 https://www.vox.com/business-and-finance/2018/1/4/16850004/meltdown-spectre-intel-security-flaw-update
 https://arstechnica.com/gadgets/2018/01/good-newsbad-news-in-quest-to-get-meltdown-and-spectre-patched/ 
@@ -116,6 +111,14 @@ https://superuser.com/questions/184870/laptops-internal-keyboard-as-an-external-
 
 # CONTROL THE FANS
 https://github.com/dasGringuen/kickstart/tree/master/my_thinkpad_fan_control
+
+# CURRENT SETUP
+http://www.supermicro.nl/products/motherboard/xeon/c600/x10srl-f.cfm
+https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz
+https://superuser.com/questions/1287102/possibility-of-incorrect-install-of-cpu-would-system-boot-os-install/1287105
+https://www.gigabyte.com/Graphics-Card/GV-N108TGAMING-OC-11G#kf
+https://www.msi.com/Graphics-card/GeForce-GTX-1060-6GT-OC/Specification
+
 
 ########################################     CS      ########################################
 
