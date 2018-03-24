@@ -112,7 +112,7 @@ https://superuser.com/questions/184870/laptops-internal-keyboard-as-an-external-
 # CONTROL THE FANS
 https://github.com/dasGringuen/kickstart/tree/master/my_thinkpad_fan_control
 
-# whats my CPU?
+# WHAT'S MY CPU?
 cat /proc/cpuinfo  | grep 'name'| uniq
 
 
@@ -127,7 +127,11 @@ https://www.gigabyte.com/Graphics-Card/GV-N108TGAMING-OC-11G#kf
 https://www.msi.com/Graphics-card/GeForce-GTX-1060-6GT-OC/Specification
 http://www.asrock.com/mb/Intel/X99%20Extreme4/
 
-########################################     CS      ########################################
+# CALCULATE PSU NEEDED
+
+http://www.coolermaster.com/power-supply-calculator/
+
+########################################   CS      ########################################
 
 
 # DYNAMIC PROGRAMMING
