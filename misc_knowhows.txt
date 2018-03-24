@@ -1,6 +1,8 @@
 
 # MOUNTING
 https://unix.stackexchange.com/questions/18925/how-to-mount-a-device-in-linux
+https://linux.die.net/man/8/mount
+
 
 # SH STUFF
 https://askubuntu.com/questions/263504/what-does-adding-sh-do
