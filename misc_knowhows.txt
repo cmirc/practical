@@ -113,12 +113,15 @@ https://superuser.com/questions/184870/laptops-internal-keyboard-as-an-external-
 https://github.com/dasGringuen/kickstart/tree/master/my_thinkpad_fan_control
 
 # CURRENT SETUP
+# FRANK0:
 http://www.supermicro.nl/products/motherboard/xeon/c600/x10srl-f.cfm
 https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz
 https://superuser.com/questions/1287102/possibility-of-incorrect-install-of-cpu-would-system-boot-os-install/1287105
+# FRANK1
+https://ark.intel.com/products/82765/Intel-Xeon-Processor-E5-1650-v3-15M-Cache-3_50-GHz
 https://www.gigabyte.com/Graphics-Card/GV-N108TGAMING-OC-11G#kf
 https://www.msi.com/Graphics-card/GeForce-GTX-1060-6GT-OC/Specification
-
+http://www.asrock.com/mb/Intel/X99%20Extreme4/
 
 ########################################     CS      ########################################
 
