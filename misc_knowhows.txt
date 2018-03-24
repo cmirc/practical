@@ -126,6 +126,9 @@ https://ark.intel.com/products/82765/Intel-Xeon-Processor-E5-1650-v3-15M-Cache-3
 https://www.gigabyte.com/Graphics-Card/GV-N108TGAMING-OC-11G#kf
 https://www.msi.com/Graphics-card/GeForce-GTX-1060-6GT-OC/Specification
 http://www.asrock.com/mb/Intel/X99%20Extreme4/
+https://www.kingstonmemoryshop.co.uk/kingston-32gb-ddr4-kth-pl424-32g-reg-ecc-ram-memory-dimm 
+https://tweakers.net/pricewatch/563815/kingston-kth-pl424-32g/specificaties/
+
 
 # CALCULATE PSU NEEDED
 
