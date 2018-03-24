@@ -112,6 +112,10 @@ https://superuser.com/questions/184870/laptops-internal-keyboard-as-an-external-
 # CONTROL THE FANS
 https://github.com/dasGringuen/kickstart/tree/master/my_thinkpad_fan_control
 
+# whats my CPU?
+cat /proc/cpuinfo  | grep 'name'| uniq
+
+
 # CURRENT SETUP
 # FRANK0:
 http://www.supermicro.nl/products/motherboard/xeon/c600/x10srl-f.cfm
