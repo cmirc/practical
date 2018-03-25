@@ -123,6 +123,8 @@ cat /proc/cpuinfo  | grep 'name'| uniq
 http://www.supermicro.nl/products/motherboard/xeon/c600/x10srl-f.cfm
 https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz
 https://superuser.com/questions/1287102/possibility-of-incorrect-install-of-cpu-would-system-boot-os-install/1287105
+dubbelcheck:
+http://webcache.googleusercontent.com/search?q=cache:ZAJTyKEoWj4J:www.crucial.com/usa/en/ct32g4lfd4266+&cd=1&hl=en&ct=clnk&gl=nl&client=ubuntu
 # FRANK1
 https://ark.intel.com/products/82765/Intel-Xeon-Processor-E5-1650-v3-15M-Cache-3_50-GHz
 https://www.gigabyte.com/Graphics-Card/GV-N108TGAMING-OC-11G#kf
