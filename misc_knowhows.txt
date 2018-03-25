@@ -138,6 +138,15 @@ https://tweakers.net/pricewatch/563815/kingston-kth-pl424-32g/specificaties/
 
 http://www.coolermaster.com/power-supply-calculator/
 
+
+# change audio rates:
+# check current rate / general info:
+mediainfo 
+# change khz:
+ffmpeg -i xyz.wav -ar 16000 xyz2.wav
+
+
+
 ########################################   CS      ########################################
 
 
