@@ -28,6 +28,10 @@ https://www.youtube.com/watch?v=GaEu8HXL0FE
 https://www.youtube.com/watch?v=uRQ4QBegur8 
 https://www.youtube.com/watch?v=8PPsRowfJKA
 
+# LINE DELETION
+history  | tail -n 10
+history -d 1234
+
 # KERNEL HEADERS
 https://unix.stackexchange.com/questions/47330/what-exactly-are-linux-kernel-headers
 https://askubuntu.com/questions/75709/how-do-i-install-kernel-header-files
