@@ -3,6 +3,40 @@
 https://unix.stackexchange.com/questions/18925/how-to-mount-a-device-in-linux
 https://linux.die.net/man/8/mount
 
+# (RE)CREATION
+
+# check which sdXY
+s blkid
+# if no sdXY visible, use
+s parted /dev/sdb1 -l
+s fdisk /dev/sdb -l
+
+# wipe 'lite' 
+# check gb to mb for count
+s dd if=/dev/zero of=/dev/sdb bs=1k count=32000
+# wipe 'heavy'
+s shred /dev/sdb1
+
+#
+s parted /dev/sdb mklabel gpt
+s parted -a opt /dev/sdb mkpart primary ext4 0% 100%
+# make new filesys
+s mkfs.ext4 /dev/sdXY
+# mount to final check
+s mount /dev/sdXY /media/usb
+
+##
+sudo lshw -C disk                # Checking the location of the new drive. It is /dev/sdb.     
+sudo parted /dev/sdb mklabel gpt # Creating the GUID Partition Table (GPT)
+#sudo parted /dev/sdb print       # Checking that the GPT has been created
+#sudo parted /dev/sdb print unit MB print free # see 6001175MB size
+sudo parted --align optimal /dev/sdb mkpart primary ext4 0% 6001175MB # Creating partition label
+sudo mkfs.ext4 /dev/sdb1         # Creating the partition
+sudo nano /etc/fstab             # Add line `/dev/sdb1 /crimea ext4 defaults 0 0`
+sudo mount -a # Remount /etc/fstab without rebooting
+
+VIA: https://askubuntu.com/questions/384062/how-do-i-create-and-tune-an-ext4-partition-from-the-command-line
+##
 
 # SH STUFF
 https://askubuntu.com/questions/263504/what-does-adding-sh-do
